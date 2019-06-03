@@ -1,0 +1,15 @@
+.butt{
+    height:20px;
+    color:aqua;
+    border: 1px solid gray;
+    margin: 3px;
+    font-size: 15px;
+    font-weight: bold;
+}
+#textbox{
+    width: 300px;
+    height: 10px;
+    color: aquamarine;
+    text-align: center;
+    margin: 3px;
+}

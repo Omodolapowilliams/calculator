@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Document</title>
+    </head>
+        <body>
+           
+            <script src="calculator.js"></script>
+          <style>
+                #butt{
+                    height:20px;
+                    color:aqua;
+                    border: 1px solid gray;
+                    margin-left: 3px;
+                    font-size: 15px;
+                    font-weight: bold;
+                    }
+                #textbox{
+                    border: 2px solid black;
+                    background-color:rgba(255, 255, 255, 0.712);
+                    height:30px;
+                    margin-left: 10px;
+                }
+                .button{
+                    color: white;
+                    border-color: black;
+
+                }
+          </style>
+            <form name="frm"></form>
+                 <!-- <style="border:3px solid rgba(17, 17, 97, 0.733); padding:3px; margin:10px; width:200px; height:250px; background-color:rosybrown; "/>    --> -->
+             <input id="textbox" type="textbox" name="txt"/><br/>
+               <div type="butt">
+                    <br/>
+                    <input type="button" name="btn9" value="9" onclick="dis(btn9.value)"/>
+                    <input type="button" name="btn8" value="8" onclick="dis(btn8.value)"/>
+                    <input type="button" name="btn7" value="7" onclick="dis(btn7.value)"/>
+                    <input type="button" name="btnd" value="/" onclick="dis(' '+btnd.value+' ')"/>
+                    <input type="button" name="btncos" value="cos" onclick="fncos()"/>
+                    <br/>
+                    <br/>
+
+                    <input type="button" name="btn6" value="6" onclick="dis(btn6.value)"/>
+                    <input type="button" name="btn5" value="5" onclick="dis(btn5.value)"/>
+                    <input type="button" name="btn4" value="4" onclick="dis(btn4.value)"/>
+                    <input type="button" name="btnm" value="*" onclick="dis(' '+btnm.value+' ')"/>
+                    <input type="button" name="btntan" value="tan" onclick="fntan()"/>
+                    <br/>
+                    <br/>
+                    <input type="button" name="btn3" value="3" onclick="dis(btn3.value)"/>
+                    <input type="button" name="btn2" value="2" onclick="dis(btn2.value)"/>
+                    <input type="button" name="btn1" value="1" onclick="dis(btn1.value)"/>
+                    <input type="button" name="btnadd" value="+" onclick="dis(' '+btnadd.value+' ')"/>
+                    <br/>
+                    <br/>
+                    <input type="button" name="btn0" value="0" onclick="dis(btn0.value)"/>
+                    <input type="button" name="btnsub" value="-" onclick="dis(' '+btnsub.value+' ')"/>
+                    <input type="button" name="btndot" value="." onclick="dis(btndot.value)"/>
+                    <input type="button" name="btnsin" value="sin" onclick="fnsin()"/>
+                </div>
+        </body>
+
+</html>
